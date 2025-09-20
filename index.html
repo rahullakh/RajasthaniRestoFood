@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="still.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="baap">
-        <header class=head>
-            <nav class="nav">
-                <div class="nav-part2">
-                    <div class="logo">
-                        <h1>RestFood</h1>
-                    </div>
-                    <div class="elem">
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="#About">Menu</a></li>
-                          
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                 
-                </div>
-            </nav>
-        </header>
-        <div class="main">
+      <header class="head">
+        <nav class="nav">
+          <div class="logo">
+            <h1><i class="ri-hand-heart-line"></i><span>FoodResto</span></h1>
+          </div>
+
+          <ul class="navbar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service</a></li>
+          </ul>
+
+          <div class="registeration">
+            <a href="#" class="user"><i class="ri-login-box-line"></i>Login</a>
+            <a href="#" class="newUser"
+              ><i class="ri-file-user-line"></i>Sign Up</a
+            >
+            <div class="menu" id="menu-icon">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- <div class="main">
             <div class="left">
                 <div class="center">
                     <h1>Welcome To <i>Rajasthani</i>Restaurant.</h1>
@@ -248,8 +264,16 @@
 
             </div>
 
-        </div>
+        </div> -->
     </div>
-</body>
+    <script>
+      let menu = document.querySelector("#menu-icon");
+      let links = document.querySelector(".navbar-links");
 
+      menu.onclick = () => {
+        menu.classList.toggle("bg-x");
+        links.classList.toggle("open");
+      };
+    </script>
+  </body>
 </html>
