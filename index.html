@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
@@ -14,11 +14,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
   </head>
 
   <body>
-    <div class="baap">
+    <div class="main">
       <header class="head">
         <nav class="nav">
           <div class="logo">
@@ -43,229 +43,238 @@
           </div>
         </nav>
       </header>
-
-      <!-- <div class="main">
-            <div class="left">
-                <div class="center">
-                    <h1>Welcome To <i>Rajasthani</i>Restaurant.</h1>
-                    <h3>Eat,Drink & Enjoy Our family.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab expedita itaque cum ratione, nostrum
-                        laudantium? Odit, ea facere asperiores veritatis est dolore similique necessitatibus quaerat
-                        dolorem eos minima laudantium esse beatae repellendus accusantium harum iusto incidunt.
-                    </p>
-                    <div class="butt">
-                        <a href="#">Explore</a>
-                        <button>See More</button>
-                    </div>
-                </div>
+      <section class="landing-page">
+        <div class="left">
+          <div class="center">
+            <h1>WelcomeTo, <span>Rajasthani</span> Restaurant.</h1>
+            <h3>Eat,Drink & Enjoy Our family.</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
+              expedita itaque cum ratione, nostrum laudantium? Odit, ea facere
+              asperiores veritatis est dolore similique necessitatibus.
+            </p>
+            <div class="butt">
+              <a href="#">Explore</a>
+              <button>See More</button>
             </div>
-            <div class="right">
-                 <img src="https://cdn.pixabay.com/photo/2023/03/06/14/19/cafe-7833566_1280.jpg" alt="">
-            </div>
+          </div>
         </div>
-        <div class="page2">
-            <div class="for">
-                <form action="java.backend" class="firstf">
-                    <div class="row">
-                        <label for="F">Date</label>
-                        <br>
-                        <input type="text" name="date" id="F">
-                    </div>
-                    <div class="row">
-                        <label for="S">Time</label>
-                        <br>
-                        <input type="text" name="time" id="T">
-                    </div>
-                    <div class="row">
-                        <label for="M">Mail</label>
-                        <br>
-                        <input type="text" name="mail" id="M">
-                    </div>
-                    <div class="row">
-                        <button>Check Avilability</button>
-                    </div>
-                </form>
-            </div>
+        <div class="right">
+          <img src="/Images/Logo.png" alt="" />
         </div>
-        <div class="page3"  id="About">
-            <div class="text">
-                <h4>Delicious</h4>
-                <h1>Food Categories</h1>
+      </section>
+      <section class="page2">
+        <div class="for">
+          <form class="firstf">
+            <div class="row">
+              <label for="F">Date</label>
+              <br />
+              <input type="date" name="date" id="F" />
             </div>
-            <div class="Card"> 
-                <div class="read1">
-                    <img src="https://media.istockphoto.com/id/1255780683/photo/dal-khichadi-and-kadhi-with-papad-and-raw-mango-pickle.jpg?s=612x612&w=0&k=20&c=4yu4NPQ1TmueOP7Da1szZdnDUd0UIwk7KU978jU-0-Q="
-                        alt="">
-                    <h1>Khichadi</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque accusamus animi
-                        nam asperiores eaque deserunt tempore, odio consectetur neque.</p>
-                    <button>Read More</button>
-                </div>
-                <div class="read1">
-                    <img src="https://media.istockphoto.com/id/1458973879/photo/rajasthani-traditional-cuisine-dal-baati.jpg?s=612x612&w=0&k=20&c=bBspCwj57CtdD0m66dZpNpNU_Dou3o7l1PscMUsijQc="
-                        alt="">
-                    <h1>Dal Bati</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque accusamus animi
-                        nam asperiores eaque deserunt tempore, odio consectetur neque.</p>
-                    <button>Read More</button>
-                </div>
-                <div class="read1">
-                    <img src="https://media.istockphoto.com/id/1272814104/photo/fresh-almond-saffron-milk.jpg?s=612x612&w=0&k=20&c=FPddBljbwwhAgszkUZoDOtS-wmLp7uwHcdBJnP2Ht5k="
-                        alt="">
-                    <h1>Lassi</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque accusamus animi
-                        nam asperiores eaque deserunt tempore, odio consectetur neque.</p>
-                    <button>Read More</button>
-                </div>
+            <div class="row">
+              <label for="S">Time</label>
+              <br />
+              <input type="time" name="time" id="T" />
             </div>
+            <div class="row">
+              <label for="M">Mail</label>
+              <br />
+              <input type="email" name="Email" id="M" placeholder="email" />
+            </div>
+            <div class="row">
+              <button>Check Avilability</button>
+            </div>
+          </form>
         </div>
-        <div class="page4">
-            <div class="comn">
-                <div class="content">
-                    <h3>COVID-19 Protocol</h3>
-                    <h1>We care about you</h1>
-                    <button>Read More</button>
-                </div>
-            </div>
+      </section>
+      <section class="page3" id="About">
+        <div class="text">
+          <h2>Delicious</h2>
+          <p>Food Categories</p>
         </div>
-        <div class="page5">
-            <div class="Apage">
-                <div class="A">
-                    <h5>Story</h5>
-                    <h1>Our Restaurant</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nostrum repellendus fugit
-                        sapiente dicta quidem, dolores corrupti assumenda reiciendis velit modi facere blanditiis
-                        laudantium tempora quod veniam voluptatibus a magni harum quibusdam. Architecto, aspernatur
-                        pariatur sunt reprehenderit voluptatibus totam rerum.</p>
-                    <button>Read More</button>
-
-                </div>
-                <div class="B">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXtErAiV5h9g-nyLiPDsVWI_mBwEB9MwIkg&s"
-                        alt="">
-                </div>
-            </div>
+        <div class="Card">
+          <div class="read1">
+            <img src="/Images/dal_bath.jpg" alt="" />
+            <h1>Khichadi</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio doloremque accusamus animi nam asperiores eaque
+            </p>
+            <button>Order Now</button>
+          </div>
+          <div class="read1">
+            <img src="/Images/dal_bati.jpeg" alt="" />
+            <h1>Dal Bati</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio doloremque accusamus animi nam asperiores eaque
+            </p>
+            <button>Order Now</button>
+          </div>
+          <div class="read1">
+            <img src="/Images/lassi.jpeg" alt="" />
+            <h1>Lassi</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio doloremque accusamus animi nam asperiores eaque
+            </p>
+            <button>Order Now</button>
+          </div>
         </div>
-        <div class="page6">
-            <div class="Cpage">
-                <div class="C">
-                    <img src="https://www.shutterstock.com/image-vector/mirchi-bada-indian-rajasthani-food-260nw-1612857340.jpg"
-                        alt="">
-                </div>
-                <div class="D">
-                    <h5>Ingredients</h5>
-                    <h2>Fresh and healthy<br>ingredients</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nostrum repellendus fugit
-                        sapiente dicta quidem, dolores corrupti assumenda reiciendis velit modi facere blanditiis
-                        laudantium tempora quod veniam voluptatibus </p>
-                    <button>Read More</button>
-                </div>
-            </div>
+      </section>
+      <section class="page4">
+        <div class="comn">
+          <div class="content">
+            <h3>COVID-19 Protocol</h3>
+            <p>We care about you</p>
+            <button>Explore Now</button>
+          </div>
         </div>
-        <div class="page7">
-            <div class="custom">
-                <h4>What Our</h4>
-                <h1>Customers Say</h1>
-            </div>
-            <div class="group">
-                <div class="member">
-                    <div class="Man">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7I-Z2UZDEp5iB3EhXQ71PwHCbiHUz23IFNbNDZl6VEw&s"
-                            alt="">
-                    </div>
-                    <div class="Man2">
-                        <h1>Shivam Swami</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a eius harum aspernatur et ut
-                            delectus beatae nulla aliquid quae?</p>
-                        <h3>⭐⭐⭐⭐</h3>
-                    </div>
-                </div>
-                <div class="member">
-                    <div class="Man">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7I-Z2UZDEp5iB3EhXQ71PwHCbiHUz23IFNbNDZl6VEw&s"
-                            alt="">
-
-                    </div>
-                    <div class="Man2">
-                        <h1>Rahul lakhera</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a eius harum aspernatur et ut
-                            delectus beatae nulla aliquid quae?</p>
-                        <h3>⭐⭐⭐⭐</h3>
-                    </div>
-                </div>
-                <div class="member">
-                    <div class="Man">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7I-Z2UZDEp5iB3EhXQ71PwHCbiHUz23IFNbNDZl6VEw&s"
-                            alt="">
-                    </div>
-                    <div class="Man2">
-                        <h1>Sachin laxkar</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a eius harum aspernatur et ut
-                            delectus beatae nulla aliquid quae?</p>
-                        <h3>⭐⭐⭐⭐</h3>
-                    </div>
-                </div>
-            </div>
-
+      </section>
+      <section class="page5">
+        <div class="Apage">
+          <div class="A">
+            <h1>Story</h1>
+            <h3>Our Restaurant</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique nostrum repellendus fugit sapiente dicta quidem, dolores
+              corrupti assumenda reiciendis velit modi facere blanditiis
+              laudantium tempora quod veniam voluptatibus a magni harum
+              quibusdam. Architecto, aspernatur pariatur sunt reprehenderit
+              voluptatibus totam rerum.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="B">
+            <img src="/Images/tea.jpg" alt="" />
+          </div>
         </div>
-        <div class="page8" id="contact">
-            <div class="con">
-                <h4>Subscribe</h4>
-                <h1>To Our Newsletter</h1>
-            </div>
-            <div class="con2">
-
-                <form action="java.backend2" class="SecondF">
-                    <div class="row1">
-                        <input type="text" name="name" placeholder="NAME">
-                    </div>
-                    <div class="row2">
-                        <input type="email" name="Mail" placeholder="MAIL">
-                    </div>
-                    <div class="row3">
-                        <textarea name="Address" cols="40" rows="5" placeholder="MESSAGE"></textarea>
-                    </div>
-
-                    <div class="row4">
-                        <button>SEND MASSAGE</button>
-                    </div>
-
-                </form>
-
-            </div>
+      </section>
+      <section class="page6">
+        <div class="Cpage">
+          <div class="C">
+            <img src="/Images/Health.png" alt="" />
+          </div>
+          <div class="D">
+            <h5>Ingredients</h5>
+            <h2>Fresh and healthy<br />ingredients</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique nostrum repellendus fugit sapiente dicta quidem, dolores
+              corrupti assumenda reiciendis velit modi facere blanditiis
+              laudantium tempora quod veniam voluptatibus
+            </p>
+            <button>Read More</button>
+          </div>
         </div>
-        <div class="page9">
-            <div class="coloum">
-                <h1>About Me</h1>
-                <div class="cols">
-                    <h4>History</h4>
-                    <h4>Our Team</h4>
-                    <h4>Mission Statement</h4>
-                    <h4>Terms & Condition</h4>
-                    <h4>Privacy Pollicy</h4>
-                </div>
+      </section>
+      <section class="page7">
+        <div class="custom">
+          <h4>What Our</h4>
+          <h1>Customers Say</h1>
+        </div>
+        <div class="group">
+          <div class="member">
+            <div class="Man">
+              <img src="/Images/manager_1.jpg" alt="" />
             </div>
-            <div class="coloum">
-                <h1>What We Do</h1>
-                <div class="cols">
-                    <h4>News and Stories</h4>
-                    <h4>Publicaction</h4>
-                    <h4>Take action</h4>
-                    <h4>Recomendation</h4>
-                    <h4>Help</h4>
-                </div>
+            <div class="Man2">
+              <h1>Shivam Swami</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                a eius harum aspernatur et ut delectus beatae nulla aliquid
+                quae?
+              </p>
+              <h3>⭐⭐⭐⭐</h3>
             </div>
-            <div class="coloum">
-                <h1>Sign up To Receive <br> Our Newsler
-                </h1>
-                <div class="inp">
-                    <input type="text">
-                </div>
+          </div>
+          <div class="member">
+            <div class="Man">
+              <img src="/Images/manager_2.jpg" alt="" />
+            </div>
+            <div class="Man2">
+              <h1>Rahul lakhera</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                a eius harum aspernatur et ut delectus beatae nulla aliquid
+                quae?
+              </p>
+              <h3>⭐⭐⭐⭐</h3>
+            </div>
+          </div>
+          <div class="member">
+            <div class="Man">
+              <img src="/Images/manager_3.jpg" alt="" />
+            </div>
+            <div class="Man2">
+              <h1>Sachin laxkar</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                a eius harum aspernatur et ut delectus beatae nulla aliquid
+                quae?
+              </p>
+              <h3>⭐⭐⭐⭐</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page8" id="contact">
+        <div class="con">
+          <h4>Subscribe</h4>
+          <h1>To Our Newsletter</h1>
+        </div>
+        <div class="con2">
+          <form action="java.backend2" class="SecondF">
+            <div class="rows">
+              <input type="text" name="name" placeholder="NAME" />
+            </div>
+            <div class="rows">
+              <input type="email" name="Mail" placeholder="MAIL" />
+            </div>
+            <div class="rows">
+              <textarea name="Address" placeholder="MESSAGE"></textarea>
+            </div>
 
+            <div class="rows">
+              <button>SEND MASSAGE</button>
             </div>
-
-        </div> -->
+          </form>
+        </div>
+      </section>
+      <footer class="page9">
+        <div class="coloum">
+          <h1>About Me</h1>
+          <div class="cols">
+            <h4>History</h4>
+            <h4>Our Team</h4>
+            <h4>Mission Statement</h4>
+            <h4>Terms & Condition</h4>
+            <h4>Privacy Pollicy</h4>
+          </div>
+        </div>
+        <div class="coloum">
+          <h1>What We Do</h1>
+          <div class="cols">
+            <h4>News and Stories</h4>
+            <h4>Publicaction</h4>
+            <h4>Take action</h4>
+            <h4>Recomendation</h4>
+            <h4>Help</h4>
+          </div>
+        </div>
+        <div class="coloum">
+          <h1>
+            Sign up To Receive <br />
+            Our Newsler
+          </h1>
+          <div class="inp">
+            <input type="text" />
+          </div>
+        </div>
+      </footer>
     </div>
+
     <script>
       let menu = document.querySelector("#menu-icon");
       let links = document.querySelector(".navbar-links");
