@@ -7,7 +7,7 @@
 html,
 body {
   min-height: 100vh;
-  background-color: #f0ededff;
+  background-color: #ffff;
   overflow-x: hidden;
   font-family: "Zalando Sans SemiExpanded", sans-serif;
   overflow-y: scroll;
@@ -75,9 +75,8 @@ ul a::before {
   transform-origin: left;
   transition: transform 0.3s ease;
 }
-
-ul a:hover {
-  color: green;
+.navbar-links a:hover{
+  color:green;
 }
 ul a:hover::before {
   transform: scaleX(1);
@@ -90,15 +89,21 @@ ul a:hover::before {
   transition: all 0.5s ease;
 }
 .registeration a {
+  display: flex;          
+  align-items: center;    
+  gap: 5px;              
   border-radius: 10px;
   background: #fff;
   color: black;
-  padding: 5px 8px;
+  padding: 10px 12px;
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 500;
   transition: all 0.5s ease;
+  white-space: nowrap; 
+  box-shadow: 0px 0px 2px #000;   
 }
+
 .registeration a:hover {
   color: white;
   background: #000;
@@ -184,7 +189,7 @@ a i {
 
 .butt a {
   text-decoration: none;
-  padding: 10px 4%;
+  padding: 14px 4%;
   font-size: 1.6em;
   font-weight: 500;
   color: #000;
@@ -201,7 +206,7 @@ a i {
   border: none;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 10px 3%;
+  padding: 14px 3%;
   border-radius: 10px;
   background-color: #a39d9dff;
   color: black;
@@ -264,6 +269,7 @@ a i {
 }
 form {
   width: 100%;
+  padding:10px 5px;
 }
 
 form input {
@@ -273,6 +279,7 @@ form input {
   border: none;
   out-line: none;
   font-size: 1.5rem;
+  box-shadow:0px 0px 2px #000;
 }
 
 .page3 {
@@ -307,12 +314,14 @@ form input {
 .read1 {
   width: 100%;
   max-width: 500px;
-  background-color: rgb(250, 247, 248);
+  background-color: rgba(250, 247, 248, 0.96);
   text-align: center;
   padding: 12px;
   border-radius: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
+  box-shadow: 0px 0px 5px #343232ff;
+  
 }
 
 .read1:hover {
@@ -401,6 +410,7 @@ form input {
 .content button:hover {
   background-color: #dba628;
   color: #000;
+
 }
 
 .page5 {
@@ -411,7 +421,7 @@ form input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
   padding: 4vw 12vw;
 }
 .A,
@@ -444,10 +454,12 @@ form input {
   border: none;
   cursor: pointer;
   transition: all ease 0.3s;
-  box-shadow: 0px 0px 10px #4b4a4aff;
+  box-shadow: 0px 0px 2px #000;
+
 }
 .A button:hover {
   background: #dba628;
+
 }
 
 .B img {
@@ -507,10 +519,12 @@ form input {
   border: none;
   cursor: pointer;
   transition: all ease 0.3s;
-  box-shadow: 0px 0px 10px #4b4a4aff;
+  box-shadow: 0px 0px 2px #000;
+
 }
 .D button:hover {
   background: #dba628;
+
 }
 
 .page7 {
@@ -543,7 +557,7 @@ form input {
   padding: 20px;
   background-color: #f0ededff;
   border-radius: 10px;
-  box-shadow: 0 0px 10px rgba(8, 8, 8, 0.1);
+  box-shadow: 0 0px 2px #000;
   width: calc(33.33% - 20px);
   min-width: 400px;
   box-sizing: border-box;
@@ -611,7 +625,7 @@ form input {
   background-color: #fff;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px #000;
 }
 
 .SecondF {
