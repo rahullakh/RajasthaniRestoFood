@@ -160,7 +160,7 @@ a i {
 }
 
 .center h1 span {
-  color: rgba(247, 203, 101, 1);
+  color: rgba(233, 168, 17, 1);
   border-bottom: 1px solid rgb(72, 71, 71);
   font-size: 3.2vw;
 }
@@ -189,13 +189,15 @@ a i {
 
 .butt a {
   text-decoration: none;
-  padding: 14px 4%;
-  font-size: 1.6em;
+  padding: 13px 4%;
+  font-size: 1.5em;
   font-weight: 500;
   color: #000;
   border-radius: 10px;
   transition: all 0.3s ease;
-  background-color: #e8d4b9ff;
+  background-color: #a35f07ff;
+  box-shadow:0px 0px 2px #000;
+
 }
 .butt a:hover {
   background-color: #b26b0fff;
@@ -204,18 +206,19 @@ a i {
 
 .butt button {
   border: none;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  padding: 14px 3%;
+  padding: 13px 3%;
   border-radius: 10px;
-  background-color: #a39d9dff;
+  background-color: #fff;
   color: black;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow:0px 0px 3px #000;
 }
 
 .butt button:hover {
-  background-color: #5f5b5bff;
+  background-color: #1e1d1dff;
   color:#fff;
 
 }
@@ -274,7 +277,7 @@ form {
 
 form input {
   width: 15vw;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 13px 20px 13px 10px;
   border: none;
   out-line: none;
@@ -345,8 +348,10 @@ form input {
 
 .read1 p {
   margin: 10px 0px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  text-align:justify;
+  word-spacing:-2px;
 }
 
 .read1 h1 {
@@ -721,7 +726,7 @@ form input {
 }
 
 .coloum h4:hover {
-  color: #61dafb;
+  color: #42f622ff;
 }
 
 .inp {
@@ -740,7 +745,7 @@ form input {
   width: 100%;
 }
 
-/* Placeholder styling for the input */
+
 .inp input[type="text"]::placeholder {
   color: #aaa;
 }
@@ -774,8 +779,8 @@ form input {
   }
 
   .center h1 span {
-    color: rgba(242, 197, 75, 1);
-    border-bottom: 1px solid rgb(72, 71, 71);
+    
+    border-bottom: 1px solid rgba(25, 24, 24, 1);
     font-size: 1.6rem;
   }
 
@@ -785,13 +790,13 @@ form input {
     margin-bottom: 0px;
   }
 
-  .center p {
+  .left .center p {
     font-size: 1rem;
     color: rgb(37, 53, 51);
     font-weight: 400;
     line-height: 19px;
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     text-align: justify;
   }
 
@@ -800,7 +805,7 @@ form input {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    margin-top: 2vw;
+    margin-top: 10;
   }
 
   .butt a {
@@ -811,11 +816,9 @@ form input {
     color: #000;
     border-radius: 8px;
     transition: all 0.3s ease;
-    background-color: #e8d4b9ff;
+   
   }
-  .butt a:hover {
-    background-color: #b26b0fff;
-  }
+ 
 
   .butt button {
     border: none;
@@ -823,15 +826,12 @@ form input {
     font-weight: 500;
     padding: 5px 2%;
     border-radius: 10px;
-    background-color: #a39d9dff;
     color: black;
     cursor: pointer;
     transition: all 0.3s ease;
   }
 
-  .butt button:hover {
-    background-color: #5f5b5bff;
-  }
+ 
   .right {
     width: 100%;
     max-width: 100%;
@@ -856,10 +856,10 @@ form input {
     padding: 60px 40px;
   }
   .page8 .con h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .page8 .con2 {
-    padding: 40px;
+    padding: 10px;
   }
 }
 
@@ -876,8 +876,6 @@ form input {
   }
 
   .left .center h1 span {
-    color: rgba(245, 202, 94, 1);
-    border-bottom: 1px solid rgb(72, 71, 71);
     font-size: 1.5rem;
   }
 
@@ -896,6 +894,19 @@ form input {
     margin-top: 2px;
     margin-bottom: 2px;
     text-align: justify;
+  }
+  .Card .read1 p {
+   
+    font-size: 1rem;
+    font-weight: 500;
+    word-spacing: -2px;
+    text-align:justify;
+
+  }
+
+  .Card .read1 h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
   }
 }
 
@@ -1035,8 +1046,6 @@ form input {
   }
 
   .center h1 span {
-    color: rgba(240, 203, 80, 1);
-    border-bottom: 1px solid rgb(72, 71, 71);
     font-size: 2rem;
   }
 
@@ -1062,39 +1071,36 @@ form input {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     margin-top: 3.1vw;
   }
 
   .butt a {
     text-decoration: none;
-    padding: 10px 3%;
+    padding: 10px 2%;
     font-size: 1.2rem;
     font-weight: 500;
     color: #000;
     border-radius: 8px;
     transition: all 0.3s ease;
-    background-color: #e8d4b9ff;
+   
   }
   .butt a:hover {
-    background-color: #b26b0fff;
+    background-color: #f09113ff;
   }
 
   .butt button {
     border: none;
     font-size: 1.2rem;
     font-weight: 500;
-    padding: 10px 3%;
-    border-radius: 10px;
-    background-color: #a39d9dff;
+    padding: 10px 2%;
+    border-radius: 8px;
     color: black;
     cursor: pointer;
     transition: all 0.3s ease;
   }
 
-  .butt button:hover {
-    background-color: #5f5b5bff;
-  }
+  
   .right {
     text-align: center;
     width: 100%;
@@ -1110,10 +1116,10 @@ form input {
 
   .page2 {
     width: 100%;
-    padding: 1vw 10vw;
+    padding: 1rem 1.2rem;
   }
   .for {
-    padding: 6px 1%;
+    padding: 5px 5%;
     width: 100%;
     box-shadow: 0px 0px 10px #d6d1d1ff;
     border-radius: 5px;
@@ -1121,20 +1127,21 @@ form input {
   .firstf {
     display: flex;
     flex-wrap: wrap;
-    padding: 1vw;
+    /* padding: 1vw; */
   }
   .row {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
   .row label {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 10px;
   }
 
   .row:last-child {
     text-align: center;
+    margin-top:10px;
   }
   .row button {
     background: #fff;
@@ -1146,6 +1153,7 @@ form input {
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
+    box-shadow:0px 0px 2px #000;
   }
 
   .row button:hover {
@@ -1155,11 +1163,12 @@ form input {
 
   form {
     width: 100%;
+    
   }
 
   form input {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 8px 0px 8px 5px;
     border: none;
     out-line: none;
@@ -1172,14 +1181,16 @@ form input {
 
   .text {
     text-align: center;
-    padding-top: 1.2rem;
+    margin:20px 0px;
+   
   }
 
   .text h2 {
     color: rgb(160, 107, 9);
     font-size: 1.4rem;
     font-weight: 400;
-    margin-bottom: 10px;
+   
+
   }
 
   .text p {
@@ -1330,7 +1341,7 @@ form input {
   }
 
   .A p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 10px 0px;
     line-height: 25px;
     word-spacing: -2px;
@@ -1390,7 +1401,7 @@ form input {
     font-weight:500;
   }
   .D p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 25px;
     padding: 10px 0px;
     text-align:justify;
@@ -1408,7 +1419,7 @@ form input {
     border: none;
     cursor: pointer;
     transition: all ease 0.3s;
-    box-shadow: 0px 0px 10px #4b4a4aff;
+    box-shadow: 0px 0px 2px #000;
   }
   .D button:hover {
     background: #dba628;
@@ -1476,8 +1487,8 @@ form input {
 
   .Man2 p {
     margin: 10px 0px;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
     text-align:justify;
     word-spacing:-2px;
   }
@@ -1489,7 +1500,7 @@ form input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
+    padding: 20px 10px;
     text-align: center;
   }
 
@@ -1504,7 +1515,8 @@ form input {
   }
 
   .con h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight:500;
     color: #333;
   }
 
@@ -1512,8 +1524,8 @@ form input {
     width: 100%;
     max-width: 600px;
     background-color: #fff;
-    padding: 40px;
     border-radius: 10px;
+    padding:10px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
   }
 
