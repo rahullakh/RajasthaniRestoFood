@@ -104,9 +104,13 @@ ul a:hover::before {
   box-shadow: 0px 0px 2px #000;   
 }
 
-.registeration a:hover {
+.registeration .user:hover {
   color: white;
-  background: #000;
+  background: #32cd32;
+}
+.registeration .newUser:hover {
+  color: white;
+  background: #ed2b0dff;
 }
 a i {
   font-size: 1.3rem;
